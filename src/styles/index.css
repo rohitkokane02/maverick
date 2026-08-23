@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    color-scheme: light;
+  }
+  
+  body {
+    background-color: #F5F0E6;
+    color: #1B2A2A;
+    font-family: 'Manrope', sans-serif;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: 'Fraunces', serif;
+  }
+}
+
+/* Signature Arch Frame Utility */
+.arch-frame {
+  border-radius: 999px 999px 24px 24px;
+  overflow: hidden;
+  position: relative;
+}
+
+.arch-frame-sm {
+  border-radius: 999px 999px 16px 16px;
+  overflow: hidden;
+  position: relative;
+}
+
+.arch-border {
+  position: relative;
+}
+
+.arch-border::before {
+  content: '';
+  position: absolute;
+  inset: -6px;
+  border-radius: 999px 999px 28px 28px;
+  border: 2px stroke #C65D3B;
+  pointer-events: none;
+  z-index: 10;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #EFE8D8;
+}
+::-webkit-scrollbar-thumb {
+  background: #1B4332;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C65D3B;
+}
+
+/* Reduced Motion Respect */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
