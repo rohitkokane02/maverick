@@ -3,10 +3,10 @@ import { ArrowRight, MapPin, Sparkles, ChevronLeft, ChevronRight, UtensilsCrosse
 import MascotIcon from './MascotIcon';
 
 const HERO_IMAGES = [
-  { url: '/images/img_1.jpg', title: 'Boho Ambience & Cozy Seating' },
-  { url: '/images/img_3.jpg', title: 'Open Kitchen & Fresh Preparation' },
-  { url: '/images/img_5.jpg', title: 'Artisanal Coffee & Pure Jain Delights' },
-  { url: '/images/img_7.jpg', title: 'Lively Celebrations & Warm Hospitality' },
+  { url: './images/img_1.jpg', title: 'Boho Ambience & Cozy Seating' },
+  { url: './images/img_3.jpg', title: 'Open Kitchen & Fresh Preparation' },
+  { url: './images/img_5.jpg', title: 'Artisanal Coffee & Pure Jain Delights' },
+  { url: './images/img_7.jpg', title: 'Lively Celebrations & Warm Hospitality' },
 ];
 
 export default function Hero({ onOpenFullMenu }) {

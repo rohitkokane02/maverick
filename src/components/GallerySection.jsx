@@ -5,56 +5,56 @@ import VideoModal from './VideoModal';
 const GALLERY_VIDEOS = [
   {
     id: 'video_1',
-    src: '/videos/video_1.mp4',
-    poster: '/videos/posters/video_1_poster.jpg',
+    src: './videos/video_1.mp4',
+    poster: './videos/posters/video_1_poster.jpg',
     title: 'Signature Coffee Pouring & Art',
     subtitle: 'Handcrafted Espresso Specials'
   },
   {
     id: 'video_2',
-    src: '/videos/video_2.mp4',
-    poster: '/videos/posters/video_2_poster.jpg',
+    src: './videos/video_2.mp4',
+    poster: './videos/posters/video_2_poster.jpg',
     title: 'Open Kitchen Live Sizzling',
     subtitle: 'Fresh Gourmet Bites'
   },
   {
     id: 'video_3',
-    src: '/videos/video_3.mp4',
-    poster: '/videos/posters/video_3_poster.jpg',
+    src: './videos/video_3.mp4',
+    poster: './videos/posters/video_3_poster.jpg',
     title: 'Urban Jungle Plant Ambience',
     subtitle: 'Boho Seating Sanctuary'
   },
   {
     id: 'video_4',
-    src: '/videos/video_4.mp4',
-    poster: '/videos/posters/video_4_poster.jpg',
+    src: './videos/video_4.mp4',
+    poster: './videos/posters/video_4_poster.jpg',
     title: 'Artisanal Pure Jain Pizza Craft',
     subtitle: '100% Dedicated Prep'
   },
   {
     id: 'video_5',
-    src: '/videos/video_5.mp4',
-    poster: '/videos/posters/video_5_poster.jpg',
+    src: './videos/video_5.mp4',
+    poster: './videos/posters/video_5_poster.jpg',
     title: 'Birthday & Party Celebrations',
     subtitle: 'Private Event Moments'
   },
   {
     id: 'video_6',
-    src: '/videos/video_6.mp4',
-    poster: '/videos/posters/video_6_poster.jpg',
+    src: './videos/video_6.mp4',
+    poster: './videos/posters/video_6_poster.jpg',
     title: 'Dessert Shake & Brownie Creation',
     subtitle: 'Decadent Sweet Delights'
   }
 ];
 
 const GALLERY_IMAGES = [
-  { src: '/images/img_1.jpg', title: 'Boho Wall & Seating' },
-  { src: '/images/img_2.jpg', title: 'Open Bar & Kitchen View' },
-  { src: '/images/img_3.jpg', title: 'Signature Cold Brews' },
-  { src: '/images/img_4.jpg', title: 'Celebration Gathering' },
-  { src: '/images/img_5.jpg', title: 'Lush Botanical Corners' },
-  { src: '/images/img_6.jpg', title: 'Storefront Facade' },
-  { src: '/images/img_7.jpg', title: 'Pure Jain Gourmet Plates' },
+  { src: './images/img_1.jpg', title: 'Boho Wall & Seating' },
+  { src: './images/img_2.jpg', title: 'Open Bar & Kitchen View' },
+  { src: './images/img_3.jpg', title: 'Signature Cold Brews' },
+  { src: './images/img_4.jpg', title: 'Celebration Gathering' },
+  { src: './images/img_5.jpg', title: 'Lush Botanical Corners' },
+  { src: './images/img_6.jpg', title: 'Storefront Facade' },
+  { src: './images/img_7.jpg', title: 'Pure Jain Gourmet Plates' },
 ];
 
 export default function GallerySection() {

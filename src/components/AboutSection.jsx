@@ -20,7 +20,7 @@ export default function AboutSection() {
               <div className="p-3 bg-terracotta rounded-[999px_999px_32px_32px] shadow-2xl relative">
                 <div className="relative h-[480px] sm:h-[540px] rounded-[999px_999px_24px_24px] overflow-hidden bg-forest">
                   <img
-                    src="/images/img_1.jpg"
+                    src="./images/img_1.jpg"
                     alt="Café Maverick Story & Ambience"
                     className="w-full h-full object-cover"
                     loading="lazy"
